@@ -9,6 +9,9 @@ const Footer = () => (
 		<Container>
 			<Row xs={12} className={footerStyle.FooterContainer}>
 				<Col xs={12} md={4}>
+					<h4 className={footerStyle.Title}>Akash Chhetri ©2020</h4>
+				</Col>
+				<Col xs={12} md={{ span: 2, offset: 6 }}>
 					<a
 						href="https://github.com/achhetr"
 						target="_blank"
@@ -31,9 +34,6 @@ const Footer = () => (
 							size="2x"
 						/>
 					</a>
-				</Col>
-				<Col xs={12} md={8}>
-					<h4>Akash Chhetri ©2020</h4>
 				</Col>
 			</Row>
 		</Container>
