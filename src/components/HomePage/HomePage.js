@@ -11,8 +11,8 @@ const HomePage = () => (
 			<h4 className={homeStyle.Profile}>
 				I am a Junior Full Stack Developer
 			</h4>
-			<Link to="/" className={homeStyle.ProjectBtn}>
-				<Button variant="primary">Check my projects</Button>
+			<Link to="/projects" className={homeStyle.ProjectBtn}>
+				<Button variant="outline-primary">Check my projects</Button>{' '}
 			</Link>
 		</div>
 	</div>
