@@ -2,6 +2,7 @@ export default [
 	{
 		title: 'Akash ka project',
 		body: 'Superhero si body banana h atyant muskil',
+		tags: ['Css', 'Javs'],
 		githubUrl:
 			'https://s3-assets.eastidahonews.com/wp-content/uploads/2020/08/08133031/grizzly-bear.jpg',
 		imageUrl:
@@ -10,6 +11,7 @@ export default [
 	{
 		title: 'Akash ka project',
 		body: 'Superhero si body banana h atyant muskil',
+		tags: ['Css', 'Javs'],
 		liveUrl:
 			'https://s3-assets.eastidahonews.com/wp-content/uploads/2020/08/08133031/grizzly-bear.jpg',
 		githubUrl:
