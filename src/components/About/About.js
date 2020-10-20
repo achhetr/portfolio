@@ -8,7 +8,7 @@ import aboutStyle from './about.module.css';
 const About = () => (
 	<Container>
 		<h1 className={aboutStyle.Title}>About me</h1>
-		<Card className="text-center">
+		<Card className={`text-center ${aboutStyle.CardContainer}`}>
 			<Card.Header>Full Stack Developer</Card.Header>
 			<Card.Body>
 				<Card.Title>
@@ -75,9 +75,6 @@ const About = () => (
 					<Button variant="primary">Explore projects</Button>
 				</Link>
 			</Card.Body>
-			<Card.Footer className="text-muted">
-				<blockquote>Feedback is very important</blockquote>
-			</Card.Footer>
 		</Card>
 	</Container>
 );
