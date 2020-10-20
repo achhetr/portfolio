@@ -39,3 +39,9 @@
 .FaItemLkd:hover {
 	color: #0e76a8;
 }
+
+@media (max-width: 30rem) {
+	.Footer {
+		display: none !important;
+	}
+}

@@ -20,6 +20,6 @@
 
 @media (max-width: 30rem) {
 	.Card {
-		width: 15rem;
+		width: 100%;
 	}
 }

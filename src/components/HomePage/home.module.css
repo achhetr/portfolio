@@ -28,6 +28,7 @@
 	padding-right: 0.5rem;
 	white-space: nowrap;
 	overflow: hidden;
+	font-size: 2rem;
 	animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
 }
 
@@ -57,5 +58,8 @@
 @media (max-width: 30rem) {
 	.Title {
 		font-size: 2rem;
+	}
+	.Profile {
+		font-size: 1rem;
 	}
 }

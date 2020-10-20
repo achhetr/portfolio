@@ -49,10 +49,13 @@
 	}
 
 	.Container {
-		margin-bottom: 10rem;
+		margin-bottom: 2rem;
 	}
 
 	.Title {
 		font-size: 2rem;
+	}
+	.FormContainer {
+		padding: 2rem;
 	}
 }

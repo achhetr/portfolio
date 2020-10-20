@@ -7,7 +7,7 @@ This is a portfolio project based on Bootstrap and React
 Download the zip or run following command
 
 ```bash
-git clone  ./
+git clone https://github.com/achhetr/portfolio.git ./
 ```
 
 ## Usage
@@ -22,7 +22,9 @@ To run website locally
 yarn start
 ```
 
-To run live website (go to)[]
+Go to (link)[http://localhost:3000/]
+
+To run live website (link)[https://akash7.netlify.app/]
 
 ## Contributing
 

@@ -10,8 +10,12 @@ const Project = (props) => (
 		<Card className={projectStyle.Card}>
 			<Card.Img variant="top" src={props.project.imageUrl} />
 			<Card.Body>
-				<Card.Title>{props.project.title} </Card.Title>
-				<Card.Text>{props.project.body}</Card.Text>
+				<Card.Title className="text-center">
+					{props.project.title}{' '}
+				</Card.Title>
+				<Card.Text className="text-center">
+					{props.project.body}
+				</Card.Text>
 			</Card.Body>
 			{props.project.tags ? (
 				<Card.Body>
