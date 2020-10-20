@@ -1,0 +1,11 @@
+.Container {
+	margin: 1rem;
+}
+
+.BtnGroup {
+	cursor: pointer;
+}
+
+.BtnGroupDisabled {
+	cursor: not-allowed;
+}

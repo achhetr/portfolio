@@ -1,0 +1,34 @@
+.Footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #343a40;
+	color: white;
+	display: flex;
+	z-index: 1;
+}
+
+.FooterContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.FaItem {
+	margin: 0.5rem;
+	color: white;
+}
+
+.FaItem:hover {
+	cursor: pointer;
+}
+
+.FaItemGit:hover {
+	color: #4078c0;
+}
+
+.FaItemLkd:hover {
+	color: #0e76a8;
+}

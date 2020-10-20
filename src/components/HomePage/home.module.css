@@ -1,0 +1,55 @@
+.HomeContainer {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #fe8974; */
+}
+
+.Home {
+	padding: 2rem;
+	margin-top: -2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-self: center;
+}
+
+.Title {
+	margin: 1rem auto;
+	font-weight: 100;
+	font-size: 4rem;
+}
+
+.Profile {
+	border-right: 1px solid black;
+	padding-right: 0.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
+}
+
+.ProjectBtn {
+	margin: 0 auto;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: black;
+	}
+}
