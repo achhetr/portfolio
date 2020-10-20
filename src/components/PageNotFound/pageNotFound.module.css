@@ -1,0 +1,15 @@
+.Home {
+	top: 20%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Profile {
+	padding-right: 0.5rem;
+}
+
+.ProjectBtn {
+	margin: 1rem auto;
+}

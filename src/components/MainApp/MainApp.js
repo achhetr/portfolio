@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Transition from '../../Hoc/Transition/Transition';
+import PageNotFound from '../PageNotFound/PageNotFound';
 
 const MainApp = () => {
 	return (
@@ -36,7 +37,7 @@ const MainApp = () => {
 				</Route>
 				<Route path="">
 					<Transition>
-						<Contact />
+						<PageNotFound />
 					</Transition>
 				</Route>
 			</Switch>
