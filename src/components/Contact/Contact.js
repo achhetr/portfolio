@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import * as EmailValidator from 'email-validator';
 import Modal from 'react-modal';
 import { Container, Row, Form, Button } from 'react-bootstrap';
+import swal from 'sweetalert';
 
 import contactStyle from './contact.module.css';
 
@@ -14,6 +15,9 @@ const Contact = () => {
 	const [mobile, setMobile] = useState('');
 	const [body, setBody] = useState('');
 	const [checkBox, setCheckBox] = useState(false);
+
+	// form uri
+	const formUri = 'https://formspree.io/f/xnqodjjd';
 
 	const onChangeName = (e) => {
 		const name = e.target.value;
@@ -42,28 +46,50 @@ const Contact = () => {
 		setError(() => false);
 	};
 
-	const onSubmit = (e) => {
+	const onSubmit = async (e) => {
 		e.preventDefault();
 		if (!EmailValidator.validate(email)) {
 			setError(() => true);
 			setErrorInput(() => 'Email Address');
+			return;
 		}
 		if (name.length < 3) {
 			setError(() => true);
 			setErrorInput(() => 'Name should be more than 3 characters');
+			return;
 		}
 		if (name.length > 15) {
 			setError(() => true);
 			setErrorInput(() => 'Name should be less than 15 characters');
+			return;
 		}
 		if (mobile.length !== 10) {
 			setError(() => true);
 			setErrorInput(() => 'Invalid Mobile');
+			return;
 		}
 
 		if (body.length < 10) {
 			setError(() => true);
 			setErrorInput(() => 'Enquiry should be more than 10 characters');
+			return;
+		}
+		const data = await fetch(formUri, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json;charset=utf-8',
+			},
+			body: JSON.stringify({
+				name,
+				email,
+				mobile,
+				body,
+				jobRelated: checkBox,
+			}),
+		});
+		const result = await data.json();
+		if (result.ok) {
+			swal(name, ' your form successfully submitted!', 'Thank you!');
 		}
 	};
 
