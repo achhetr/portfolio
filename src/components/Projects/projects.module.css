@@ -1,3 +1,8 @@
+.Container {
+	padding: 1rem 4rem;
+	margin: 3rem auto;
+}
+
 .Title {
 	margin: 1rem auto;
 	font-weight: 100;
@@ -5,7 +10,20 @@
 	text-align: center;
 }
 
-.Container {
-	padding: 1rem 4rem;
-	margin: 4rem 1rem;
+.RowGrid {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+@media (max-width: 30rem) {
+	.Title {
+		font-size: 2rem;
+	}
+
+	.Container {
+		padding: 1rem;
+		margin: 1rem;
+		margin-bottom: 5rem;
+	}
 }

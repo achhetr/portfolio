@@ -11,7 +11,7 @@ const Contact = () => {
 	// form input
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
-	const [mobile, setMobile] = useState();
+	const [mobile, setMobile] = useState('');
 	const [body, setBody] = useState('');
 	const [checkBox, setCheckBox] = useState(false);
 
@@ -26,8 +26,7 @@ const Contact = () => {
 	};
 	const onChangeMobile = (e) => {
 		let mobile = e.target.value.toString();
-
-		// mobile = mobile.replace(/^[0-9]{10}/g);
+		mobile = mobile.replace(/\D/g, '');
 		setMobile(() => mobile);
 	};
 	const onChangeBody = (e) => {
@@ -103,7 +102,6 @@ const Contact = () => {
 					/>
 
 					<Form.Control
-						id="mobile"
 						type="text"
 						placeholder="0450 xxx xxx"
 						value={mobile}
@@ -112,7 +110,6 @@ const Contact = () => {
 					/>
 
 					<Form.Control
-						id="body"
 						as="textarea"
 						rows={7}
 						value={body}

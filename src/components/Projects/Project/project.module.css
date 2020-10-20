@@ -2,10 +2,24 @@
 	margin: 1rem;
 }
 
+.Card {
+	width: 24rem;
+}
+
 .BtnGroup {
 	cursor: pointer;
 }
 
 .BtnGroupDisabled {
 	cursor: not-allowed;
+}
+
+.BtnCol {
+	text-align: center;
+}
+
+@media (max-width: 30rem) {
+	.Card {
+		width: 15rem;
+	}
 }

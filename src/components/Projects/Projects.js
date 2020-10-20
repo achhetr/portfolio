@@ -10,7 +10,7 @@ const Projects = () => {
 		<Container>
 			<h1 className={projectsStyle.Title}>Projects</h1>
 			<div className={projectsStyle.Container}>
-				<Row>
+				<Row className={projectsStyle.RowGrid}>
 					{projectList.map((project, i) => (
 						<Project project={project} key={i} />
 					))}

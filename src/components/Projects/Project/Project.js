@@ -7,7 +7,7 @@ import projectStyle from './project.module.css';
 const Project = (props) => {
 	return (
 		<Card className={projectStyle.Container}>
-			<Card style={{ width: '18rem' }}>
+			<Card className={projectStyle.Card}>
 				<Card.Img variant="top" src={props.project.imageUrl} />
 				<Card.Body>
 					<Card.Title>{props.project.title} </Card.Title>
@@ -15,7 +15,7 @@ const Project = (props) => {
 				</Card.Body>
 				<Card.Body>
 					<Row>
-						<Col xs={12} md={6}>
+						<Col xs={12} md={6} className={projectStyle.BtnCol}>
 							<Card.Link
 								href={props.project.liveUrl}
 								className={
@@ -38,7 +38,7 @@ const Project = (props) => {
 								Live
 							</Card.Link>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={12} md={6} className={projectStyle.BtnCol}>
 							{props.project.githubUrl && (
 								<Card.Link href={props.project.githubUrl}>
 									<FontAwesomeIcon
