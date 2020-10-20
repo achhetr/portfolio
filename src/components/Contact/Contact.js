@@ -115,7 +115,7 @@ const Contact = () => {
 	return (
 		<Container className={contactStyle.Container}>
 			<h1 className={contactStyle.Title}>Contact Me</h1>
-			<Row className="justify-content-md-center">
+			<Row className={contactStyle.FormContainer}>
 				<Form className={contactStyle.Form} onSubmit={onSubmit}>
 					<Form.Control
 						type="text"

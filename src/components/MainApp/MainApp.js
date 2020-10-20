@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import HomePage from '../HomePage/HomePage';
-import TechStack from '../TechStack/TechStack';
+import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
@@ -24,12 +24,17 @@ const MainApp = () => {
 						<Projects />
 					</Transition>
 				</Route>
-				<Route path="/tech">
+				<Route path="/about">
 					<Transition>
-						<TechStack />
+						<About />
 					</Transition>
 				</Route>
-				<Route path="/">
+				<Route path="/contact">
+					<Transition>
+						<Contact />
+					</Transition>
+				</Route>
+				<Route path="">
 					<Transition>
 						<Contact />
 					</Transition>

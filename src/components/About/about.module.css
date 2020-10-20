@@ -1,0 +1,35 @@
+.Title {
+	margin: 1rem auto;
+	font-weight: 100;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.ProfileQuote {
+	padding-bottom: 0.4rem;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.ProfilePic {
+	width: 20rem;
+	height: 20rem;
+	border: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+.ProfileBody {
+	text-align: left;
+	font-size: 300;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 30rem) {
+	.Title {
+		font-size: 2rem;
+	}
+	.ProfilePic {
+		width: 10rem;
+		height: 10rem;
+	}
+}
