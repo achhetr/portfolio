@@ -26,7 +26,7 @@ const Techskills = () => {
 							</Card>
 						</div>
 						<div className={techSkillsStyle.CardBack}>
-							<Card bg="warning" text="white">
+							<Card bg="primary" text="white">
 								<Card.Header>Frontend</Card.Header>
 								<Card.Body>
 									<Card.Title>
@@ -54,7 +54,7 @@ const Techskills = () => {
 							</Card>
 						</div>
 						<div className={techSkillsStyle.CardBack}>
-							<Card bg="success" text="white">
+							<Card bg="info" text="white">
 								<Card.Header>Backend</Card.Header>
 								<Card.Body>
 									<Card.Title>NodeJS, Python</Card.Title>
@@ -80,7 +80,7 @@ const Techskills = () => {
 							</Card>
 						</div>
 						<div className={techSkillsStyle.CardBack}>
-							<Card bg="danger" text="white">
+							<Card bg="dark" text="white">
 								<Card.Header>Cloud and Database</Card.Header>
 								<Card.Body>
 									<Card.Title>

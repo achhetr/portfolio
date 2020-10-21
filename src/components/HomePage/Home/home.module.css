@@ -28,6 +28,35 @@
 	margin: 1rem auto;
 }
 
+.FaItem {
+	margin: 0.5rem;
+	color: black;
+}
+
+.FaItemDwn {
+	color: lightgray;
+	animation: MoveUpDown 1s linear infinite;
+}
+
+.FaItem:hover {
+	cursor: pointer;
+}
+
+.FaItemGit:hover {
+	color: #4078c0;
+}
+
+.FaItemLkd:hover {
+	color: #0e76a8;
+}
+
+.MoveScroll {
+	animation: moveUpDown 2s ease-in-out 5;
+	position: absolute;
+	right: 0;
+	opacity: 0;
+}
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -44,6 +73,18 @@
 	}
 	50% {
 		border-color: black;
+	}
+}
+
+@keyframes moveUpDown {
+	0%,
+	100% {
+		top: 50%;
+		opacity: 0;
+	}
+	50% {
+		top: 70%;
+		opacity: 1;
 	}
 }
 

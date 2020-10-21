@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import homeStyle from './home.module.css';
 
 const Home = () => {
@@ -13,6 +15,37 @@ const Home = () => {
 			<Link to="/projects" className={homeStyle.ProjectBtn}>
 				<Button variant="outline-primary">Check my projects</Button>{' '}
 			</Link>
+			<div>
+				<a
+					href="https://github.com/achhetr"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<FontAwesomeIcon
+						icon={['fab', 'github']}
+						className={`${homeStyle.FaItem} ${homeStyle.FaItemGit}`}
+						size="2x"
+					/>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/akashchhetri/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<FontAwesomeIcon
+						icon={['fab', 'linkedin-in']}
+						className={`${homeStyle.FaItem} ${homeStyle.FaItemLkd}`}
+						size="2x"
+					/>
+				</a>
+			</div>
+			<div className={homeStyle.MoveScroll}>
+				<FontAwesomeIcon
+					icon={['fas', 'arrow-circle-down']}
+					className={`${homeStyle.FaItem} ${homeStyle.FaItemDwn}`}
+					size="4x"
+				/>
+			</div>
 		</div>
 	);
 };
