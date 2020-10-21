@@ -19,7 +19,7 @@ const Project = (props) => (
 			</Card.Body>
 			{props.project.tags ? (
 				<Card.Body>
-					<Card.Text>
+					<Card.Text className={projectStyle.Tags}>
 						<Tags tags={props.project.tags} />
 					</Card.Text>
 				</Card.Body>
