@@ -1,0 +1,41 @@
+.Container {
+	height: 80vh;
+	width: 100vw;
+	background-color: darkgray;
+}
+
+.Title {
+	font-size: 4rem;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.CardFlip > div {
+	backface-visibility: hidden;
+	transition: transform 300ms;
+	transition-timing-function: linear;
+	width: 100%;
+	height: 100%;
+	padding: 2rem 1rem;
+}
+
+.CardFront {
+	transform: rotateY(0deg);
+	position: absolute;
+	top: 0;
+}
+
+.CardBack {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+}
+
+.CardFlip:hover .CardFront {
+	transform: rotateY(-180deg);
+}
+
+.CardFlip:hover .CardBack {
+	transform: rotateY(0deg);
+}

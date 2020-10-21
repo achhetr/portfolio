@@ -1,20 +1,11 @@
-.HomeContainer {
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* background-color: #fe8974; */
-}
-
 .Home {
+	height: 100vh;
 	padding: 2rem;
 	margin-top: -2rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	align-self: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .Title {
@@ -24,6 +15,7 @@
 }
 
 .Profile {
+	display: inline-block;
 	border-right: 1px solid black;
 	padding-right: 0.5rem;
 	white-space: nowrap;
