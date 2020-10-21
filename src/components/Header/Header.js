@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 			<Container>
-				<Link to="/">
+				<Link to="/" className="d-none d-md-block">
 					<NavbarBrand>Akash</NavbarBrand>
 				</Link>
 				<Container>
