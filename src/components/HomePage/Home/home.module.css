@@ -51,10 +51,9 @@
 }
 
 .MoveScroll {
-	animation: moveUpDown 2s ease-in-out 5;
-	position: fixed;
-	right: 0;
-	opacity: 0;
+	animation: moveUpDown 2s ease-in-out 5 forwards;
+	animation-direction: alternate;
+	opacity: 1;
 }
 
 @keyframes typing {
@@ -77,14 +76,14 @@
 }
 
 @keyframes moveUpDown {
-	0%,
-	100% {
-		top: 50%;
-		opacity: 0;
+	0% {
+		transform: translateY(0);
 	}
 	50% {
-		top: 70%;
-		opacity: 1;
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(-20px);
 	}
 }
 

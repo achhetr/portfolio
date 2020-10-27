@@ -38,11 +38,12 @@ const Home = () => (
 				/>
 			</a>
 		</div>
+		<p>Scroll Down</p>
 		<div className={homeStyle.MoveScroll}>
 			<FontAwesomeIcon
 				icon={['fas', 'arrow-circle-down']}
 				className={`${homeStyle.FaItem} ${homeStyle.FaItemDwn}`}
-				size="4x"
+				size="2x"
 			/>
 		</div>
 	</div>
