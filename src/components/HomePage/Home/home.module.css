@@ -51,7 +51,7 @@
 }
 
 .MoveScroll {
-	animation: moveUpDown 2s ease-in-out 5 forwards;
+	animation: moveUpDown 2s ease-in-out infinite;
 	animation-direction: alternate;
 	opacity: 1;
 }

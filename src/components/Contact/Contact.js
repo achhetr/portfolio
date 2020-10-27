@@ -3,7 +3,6 @@ import * as EmailValidator from 'email-validator';
 import { Container, Row, Form, Button } from 'react-bootstrap';
 import swal from 'sweetalert';
 import { useHistory } from 'react-router-dom';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import contactStyle from './contact.module.css';
@@ -23,10 +22,6 @@ const Contact = () => {
 
 	// form uri
 	const formUri = 'https://formspree.io/f/xnqodjjd';
-
-	useEffect(() => {
-		Aos.init({ delay: 50, duration: 1000 });
-	}, []);
 
 	const onChangeName = (e) => {
 		const name = e.target.value;

@@ -39,7 +39,7 @@
 	border: 1px solid lightgray;
 	border-bottom: 2px solid gray;
 	border-radius: 0.4rem;
-	padding: 2rem 10rem;
+	padding: 1.5rem 10rem;
 }
 
 @media (max-width: 30rem) {
@@ -56,6 +56,6 @@
 		font-size: 2rem;
 	}
 	.FormContainer {
-		padding: 2rem;
+		padding: 1.2rem;
 	}
 }
