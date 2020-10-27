@@ -10,7 +10,6 @@ const Testimonials = () => {
 
 	const carouselHandler = (direction) => {
 		const length = testimonialsList.length;
-
 		switch (direction) {
 			case 'left':
 				index === 0
@@ -28,13 +27,19 @@ const Testimonials = () => {
 	};
 
 	useEffect(() => {
-		console.log(index, 'index changed');
+		let timer = setTimeout(() => {
+			carouselHandler('right');
+		}, 10000);
+		return () => clearTimeout(timer);
 	});
 
 	const Carousel = ({ number }) => {
 		const { name, position, imageUrl, comment } = testimonialsList[number];
 		return (
-			<Row className={testimonialsStyle.CarouselContainer}>
+			<Row
+				className={testimonialsStyle.CarouselContainer}
+				data-aos="fade-left"
+			>
 				<Col
 					xs={12}
 					md={4}
@@ -75,7 +80,7 @@ const Testimonials = () => {
 		<div className={testimonialsStyle.Container}>
 			<h4 className={testimonialsStyle.Title}>Testimonials</h4>
 			<Container
-				data-aos="fade-up"
+				data-aos="fade-left"
 				className="d-flex justify-content-center"
 			>
 				<div className={testimonialsStyle.FaContainer}>
