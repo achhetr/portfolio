@@ -45,6 +45,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'desktop']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Frontend Developer
 							</li>
@@ -52,6 +53,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'database']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Backend Developer
 							</li>
@@ -59,6 +61,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'server']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Serverless Enthusiast
 							</li>
@@ -66,6 +69,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'keyboard']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Full Stack Developer
 							</li>
@@ -73,6 +77,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'users-cog']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Administration Officer
 							</li>
@@ -94,6 +99,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'tasks']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Startup Projects
 							</li>
@@ -101,6 +107,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fab', 'youtube']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Udemy and Youtube
 							</li>
@@ -108,6 +115,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'running']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Outdoor Sports
 							</li>
@@ -115,6 +123,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'dumbbell']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								Gym
 							</li>
@@ -122,6 +131,7 @@ const PersonalBio = () => {
 								<FontAwesomeIcon
 									icon={['fas', 'broom']}
 									size="2x"
+									className={personalBioStyle.FA}
 								/>{' '}
 								House Chef
 							</li>
