@@ -1,4 +1,80 @@
-.Image {
+.ImageContainer {
+	overflow: hidden;
 	width: 80%;
 	height: 80%;
+	border: 1px solid gray;
+	border-bottom: 2px solid darkgray;
+	border-radius: 0.4rem;
+}
+.Image {
+	width: 100%;
+	max-height: 70vh;
+	transition: all 0.5s ease-in-out;
+}
+
+.ImageFlip {
+	transform: rotateY(-180deg);
+	opacity: 0;
+	background-color: black;
+	--webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.7s ease-in-out;
+}
+
+.ImageContainer:hover .Image {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.ImageContainer:hover .ImageFlip {
+	transform: rotateY(0deg);
+	opacity: 1;
+}
+
+.BodyContainer {
+	border: 1px solid gray;
+	border-radius: 0.4rem;
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+		10px 16px 6px -4px rgba(0, 0, 0, 0);
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+		10px 16px 6px -4px rgba(0, 0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.BodyContainer h4 {
+	margin-top: 2rem;
+}
+
+.BodyContainer ol {
+	list-style: none;
+	margin-top: 1rem;
+	flex-grow: 1;
+	padding: 0;
+	width: 70%;
+	padding: 0 1rem;
+}
+
+.BodyContainer ol li {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.AboutBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
