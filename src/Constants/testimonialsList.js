@@ -1,23 +1,22 @@
 export default [
 	{
-		name: 'Amrik XXX',
-		position: 'Subha sandhaya',
+		name: 'Superman',
+		position: 'DC Comics',
 		imageUrl:
-			'https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/12/01/629180-srk-120217.jpg',
-		comment: 'He is a good student',
+			'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjvchamary%2Ffiles%2F2016%2F03%2Fman_of_steel-1200x800.jpg',
+		comment: 'Akash works closely with me to help the world',
 	},
 	{
-		name: 'Sokhi XXX',
-		position: 'Shavans',
-		imageUrl:
-			'https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/12/01/629180-srk-120217.jpg',
-		comment: 'He is a good student',
+		name: 'Mr America',
+		position: 'Marvels',
+		imageUrl: 'https://wallpapercave.com/wp/wp1808936.jpg',
+		comment: 'Akash is a good team player and reliable',
 	},
 	{
-		name: 'Shahrukh Khan',
-		position: 'Tandoori Temptation',
+		name: 'Batman',
+		position: 'DC Comics',
 		imageUrl:
-			'https://www.thestatesman.com/wp-content/uploads/2020/04/BeFunky-collage-7-1.jpg',
-		comment: 'He is a good student',
+			'https://www.pcclean.io/wp-content/gallery/batman-hd-wallpapers/152941.jpg',
+		comment: 'Akash helps me with latest technology',
 	},
 ];

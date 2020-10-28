@@ -46,11 +46,10 @@ const Testimonials = () => {
 					md={4}
 					className={testimonialsStyle.ImageContainer}
 				>
-					<Image
-						src={imageUrl}
-						roundedCircle
-						className={testimonialsStyle.Image}
-					/>
+					<div className={testimonialsStyle.Image}>
+						<Image src={imageUrl} roundedCircle />
+					</div>
+
 					<div className={testimonialsStyle.TitleContainer}>
 						<h5>{name}</h5>
 						<p>{position}</p>
