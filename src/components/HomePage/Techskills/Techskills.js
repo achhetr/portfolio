@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row, Col, Container, Card } from 'react-bootstrap';
 
+import HomeContainer from '../../../Hoc/HomeContainer/HomeContainer';
 import techSkillsStyle from './techSkills.module.css';
 
 const Techskills = () => (
-	<div className={techSkillsStyle.Container}>
-		<h4 className={techSkillsStyle.Title}>Technical Skills</h4>
+	<HomeContainer title="Technical Skills">
 		<Container className="mt-5" data-aos="fade-up">
 			<Row noGutters>
 				<Col sm={12} md={4} className={techSkillsStyle.CardFlip}>
@@ -86,7 +86,7 @@ const Techskills = () => (
 				</Col>
 			</Row>
 		</Container>
-	</div>
+	</HomeContainer>
 );
 
 export default Techskills;

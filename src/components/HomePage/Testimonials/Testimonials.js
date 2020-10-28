@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import HomeContainer from '../../../Hoc/HomeContainer/HomeContainer';
 import testimonialsStyle from './testimonials.module.css';
 import testimonialsList from '../../../Constants/testimonialsList';
 
@@ -77,8 +78,7 @@ const Testimonials = () => {
 	};
 
 	return (
-		<div className={testimonialsStyle.Container}>
-			<h4 className={testimonialsStyle.Title}>Testimonials</h4>
+		<HomeContainer title="Testimonials" color="white">
 			<Container
 				data-aos="fade-left"
 				className="d-flex justify-content-center"
@@ -100,7 +100,7 @@ const Testimonials = () => {
 
 				<Carousel number={index} />
 			</Container>
-		</div>
+		</HomeContainer>
 	);
 };
 
