@@ -11,6 +11,9 @@ library.add(fab, fas);
 const App = () => {
 	useEffect(() => {
 		Aos.init({ delay: 50, duration: 1000 });
+		alert(
+			"Currently under maintenance, please don't mind few broken links"
+		);
 	}, []);
 	return <AppRouter />;
 };
