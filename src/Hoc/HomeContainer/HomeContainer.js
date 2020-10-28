@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import homeContainerStyle from './homeContainer.module.css';
 
 const HomeContainer = (props) => {
@@ -8,7 +9,12 @@ const HomeContainer = (props) => {
 			style={{ backgroundColor: props.color }}
 		>
 			<h4 className={homeContainerStyle.Title}>{props.title}</h4>
-			{props.children}
+			<Container
+				data-aos="fade-up"
+				className={homeContainerStyle.WrappedContainer}
+			>
+				{props.children}
+			</Container>
 		</div>
 	);
 };

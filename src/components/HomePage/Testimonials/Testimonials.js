@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Image, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import HomeContainer from '../../../Hoc/HomeContainer/HomeContainer';
@@ -79,27 +79,22 @@ const Testimonials = () => {
 
 	return (
 		<HomeContainer title="Testimonials" color="white">
-			<Container
-				data-aos="fade-left"
-				className="d-flex justify-content-center"
-			>
-				<div className={testimonialsStyle.FaContainer}>
-					<FontAwesomeIcon
-						icon={['fas', 'angle-left']}
-						size="3x"
-						className={testimonialsStyle.FaLeft}
-						onClick={() => carouselHandler('left')}
-					/>
-					<FontAwesomeIcon
-						icon={['fas', 'angle-right']}
-						size="3x"
-						className={testimonialsStyle.FaRight}
-						onClick={() => carouselHandler('right')}
-					/>
-				</div>
+			<div className={testimonialsStyle.FaContainer}>
+				<FontAwesomeIcon
+					icon={['fas', 'angle-left']}
+					size="3x"
+					className={testimonialsStyle.FaLeft}
+					onClick={() => carouselHandler('left')}
+				/>
+				<FontAwesomeIcon
+					icon={['fas', 'angle-right']}
+					size="3x"
+					className={testimonialsStyle.FaRight}
+					onClick={() => carouselHandler('right')}
+				/>
+			</div>
 
-				<Carousel number={index} />
-			</Container>
+			<Carousel number={index} />
 		</HomeContainer>
 	);
 };
