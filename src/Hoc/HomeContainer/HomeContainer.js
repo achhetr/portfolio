@@ -8,7 +8,12 @@ const HomeContainer = (props) => {
 			className={homeContainerStyle.Container}
 			style={{ backgroundColor: props.color }}
 		>
-			<h4 className={homeContainerStyle.Title}>{props.title}</h4>
+			<h4
+				className={homeContainerStyle.Title}
+				style={{ color: props.textColor }}
+			>
+				{props.title}
+			</h4>
 			<Container
 				data-aos="fade-up"
 				className={homeContainerStyle.WrappedContainer}

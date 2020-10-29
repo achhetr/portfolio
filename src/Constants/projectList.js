@@ -35,6 +35,6 @@ export default [
 			'http://www.corona-heath-update-aus.com.s3-website-ap-southeast-2.amazonaws.com/index.html',
 		githubUrl: undefined,
 		imageUrl:
-			'https://vegan-blog-image-bucket.s3.amazonaws.com/portfolio/covid-alert.png',
+			'https://vegan-blog-image-bucket.s3.amazonaws.com/portfolio/tinyurl.png',
 	},
 ];
