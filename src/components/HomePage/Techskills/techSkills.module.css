@@ -20,6 +20,7 @@
 
 .CardFront {
 	transform: rotateY(0deg);
+	text-align: center;
 }
 
 .CardBack {
@@ -56,6 +57,5 @@
 	width: 100%;
 	height: 100%;
 }
-
 @media (max-width: 30rem) {
 }
