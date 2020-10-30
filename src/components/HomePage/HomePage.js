@@ -11,9 +11,9 @@ const HomePage = () => (
 	<div className={homePageStyle.HomeContainer}>
 		<Home />
 		<Techskills />
+		<Featured />
 		<Testimonials />
 		<PersonalBio />
-		<Featured />
 	</div>
 );
 
