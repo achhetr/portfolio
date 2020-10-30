@@ -21,6 +21,8 @@ const Featured = () => {
 					</div>
 					<div className={featuredStyle.ImageFlip}>
 						<Button
+							target="_blank"
+							rel="noopener noreferrer"
 							href="https://tinyurl.com/covid-aus"
 							variant="success"
 						>
