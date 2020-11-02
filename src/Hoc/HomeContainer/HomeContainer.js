@@ -10,7 +10,7 @@ const HomeContainer = (props) => {
 		>
 			<h4
 				className={homeContainerStyle.Title}
-				style={{ color: props.textColor }}
+				style={{ color: props.titleColor }}
 			>
 				{props.title}
 			</h4>

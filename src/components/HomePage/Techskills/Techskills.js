@@ -5,11 +5,11 @@ import HomeContainer from '../../../Hoc/HomeContainer/HomeContainer';
 import techSkillsStyle from './techSkills.module.css';
 
 const Techskills = () => (
-	<HomeContainer title="Technical Skills">
+	<HomeContainer title="Technical Skills" titleColor="white" color="#21293b">
 		<Row noGutters>
 			<Col sm={12} md={4} className={techSkillsStyle.CardFlip}>
 				<div className={techSkillsStyle.CardFront}>
-					<Card bg="danger" text="white">
+					<div className={techSkillsStyle.Card}>
 						<Card.Header>Frontend</Card.Header>
 						<Card.Body>
 							<Card.Title>HTML, CSS, JS, ReactJS</Card.Title>
@@ -19,7 +19,7 @@ const Techskills = () => (
 								projects.
 							</Card.Text>
 						</Card.Body>
-					</Card>
+					</div>
 				</div>
 				<div className={techSkillsStyle.CardBack}>
 					<Card>
@@ -40,7 +40,7 @@ const Techskills = () => (
 			</Col>
 			<Col sm={12} md={4} className={techSkillsStyle.CardFlip}>
 				<div className={techSkillsStyle.CardFront}>
-					<Card bg="info" text="white">
+					<div className={techSkillsStyle.Card}>
 						<Card.Header>Backend</Card.Header>
 						<Card.Body>
 							<Card.Title>NodeJS, Python</Card.Title>
@@ -48,7 +48,7 @@ const Techskills = () => (
 								Experienced with back end skills
 							</Card.Text>
 						</Card.Body>
-					</Card>
+					</div>
 				</div>
 				<div className={techSkillsStyle.CardBack}>
 					<Card>
@@ -70,13 +70,13 @@ const Techskills = () => (
 
 			<Col sm={12} md={4} className={techSkillsStyle.CardFlip}>
 				<div className={techSkillsStyle.CardFront}>
-					<Card bg="dark" text="white">
+					<div className={techSkillsStyle.Card}>
 						<Card.Header>Cloud and Database</Card.Header>
 						<Card.Body>
 							<Card.Title>AWS, SQL, MongoDB, Mongoose</Card.Title>
 							<Card.Text>Experienced with Database</Card.Text>
 						</Card.Body>
-					</Card>
+					</div>
 				</div>
 				<div className={techSkillsStyle.CardBack}>
 					<Card>

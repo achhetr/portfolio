@@ -84,20 +84,3 @@ const Featured = () => {
 };
 
 export default Featured;
-
-{
-	/* <Image
-	src="https://vegan-blog-image-bucket.s3.amazonaws.com/portfolio/tinyurl.png"
-	rounded
-	className={featuredStyle.Image}
-/>; 
-						<Button
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://tinyurl.com/covid-aus"
-							variant="success"
-						>
-							Covid Alert Website
-						</Button>
-*/
-}

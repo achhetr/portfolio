@@ -77,7 +77,7 @@ const Testimonials = () => {
 	};
 
 	return (
-		<HomeContainer title="Testimonials" color="white">
+		<HomeContainer title="Testimonials" color="#f6f5ff">
 			<div className={testimonialsStyle.FaContainer}>
 				<FontAwesomeIcon
 					icon={['fas', 'angle-left']}

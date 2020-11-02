@@ -86,7 +86,7 @@ const PersonalBio = () => {
 				</Row>
 			</HomeContainer>
 
-			<HomeContainer title="" color="lightgrey">
+			<HomeContainer title="" color="#e7e3ff">
 				<Row noGutters>
 					<Col
 						xs={12}

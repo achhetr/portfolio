@@ -57,5 +57,19 @@
 	width: 100%;
 	height: 100%;
 }
+
+.Card {
+	color: #f6f5ff;
+	border-radius: 0.4rem;
+	background-color: #795eff;
+	border: 1px solid #5e45de;
+	border-left: 0.2rem solid #5e45de;
+	border-bottom: 0.2rem solid #5e45de;
+	-webkit-box-shadow: -10px 0px 13px -7px white, 10px 0px 13px -7px white,
+		10px 16px 6px -4px rgba(0, 0, 0, 0);
+	box-shadow: -10px 0px 13px -7px white, 10px 0px 13px -7px white,
+		10px 16px 6px -4px rgba(0, 0, 0, 0);
+}
+
 @media (max-width: 30rem) {
 }
