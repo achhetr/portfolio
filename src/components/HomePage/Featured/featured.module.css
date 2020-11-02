@@ -75,7 +75,7 @@
 }
 
 .ImageFlip {
-	background-color: white;
+	background-color: transparent;
 	--webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	transform: rotateY(180deg);
