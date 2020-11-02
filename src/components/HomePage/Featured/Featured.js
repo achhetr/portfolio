@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import featuredStyle from './featured.module.css';
@@ -38,22 +38,43 @@ const Featured = () => {
 				<div className={featuredStyle.InfoContainer}>
 					<ol className={featuredStyle.InfoList}>
 						<li className={featuredStyle.InfoListItem}>
-							More than 50 users
+							More than{' '}
+							<span className={featuredStyle.Badge}>
+								50+ users
+							</span>
 						</li>
 						<li className={featuredStyle.InfoListItem}>
-							Provide live Covid 19 update for Australia and
-							Victoria
+							<span className={featuredStyle.Badge}>html</span>
+							<span className={featuredStyle.Badge}>css</span>
+							<span className={featuredStyle.Badge}>
+								Javascript
+							</span>{' '}
+							used for website
 						</li>
 						<li className={featuredStyle.InfoListItem}>
-							Using Python for Automation, Web Scraping and Rest
-							API
+							<span className={featuredStyle.Badge}>
+								Responsives
+							</span>{' '}
+							Website
+						</li>
+
+						<li className={featuredStyle.InfoListItem}>
+							Provide{' '}
+							<span className={featuredStyle.Badge}>
+								live covid 19 update
+							</span>{' '}
+							for Australia and Victoria
 						</li>
 						<li className={featuredStyle.InfoListItem}>
-							AWS Lambda, API Gateway, CRON ,DyanamoDB and S3
-							Bucket
+							Using{' '}
+							<span className={featuredStyle.Badge}>Python</span>{' '}
+							for Automation, Web Scraping and Rest API
 						</li>
 						<li className={featuredStyle.InfoListItem}>
-							Serverless Website
+							<span className={featuredStyle.Badge}>
+								Amazon Web Services (AWS)
+							</span>{' '}
+							Lambda, API Gateway, DyanamoDB and S3 Bucket
 						</li>
 					</ol>
 				</div>
