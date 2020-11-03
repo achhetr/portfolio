@@ -1,6 +1,6 @@
 .Container {
 	width: 100vw;
-	min-height: 90vh;
+	min-height: 99vh;
 	max-height: 100vh;
 	display: flex;
 	flex-direction: column;

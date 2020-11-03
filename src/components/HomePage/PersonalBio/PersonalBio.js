@@ -86,7 +86,7 @@ const PersonalBio = () => {
 				</Row>
 			</HomeContainer>
 
-			<HomeContainer title="" color="transparent">
+			<HomeContainer title="" color="#a99af5">
 				<Row noGutters className={personalBioStyle.RowContainer}>
 					<Col
 						xs={12}

@@ -19,7 +19,8 @@
 
 .RightContainer {
 	width: 60%;
-	background-color: #795eff;
+	/* background-color: #795eff */
+	background: linear-gradient(-45deg, #795eff, white, #795eff, #5e45de);
 }
 
 .LeftContainer .Title {
