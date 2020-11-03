@@ -110,6 +110,7 @@
 	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
 		10px 16px 6px -4px rgba(0, 0, 0, 0);
 	padding: 2rem 4rem;
+	margin: 1rem 2rem;
 }
 
 .InfoListItem {
