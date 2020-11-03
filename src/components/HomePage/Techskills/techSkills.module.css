@@ -71,6 +71,9 @@
 		10px 16px 6px -4px rgba(0, 0, 0, 0);
 }
 
+.RowContainer {
+}
+
 @media (max-width: 30rem) {
 	.RowContainer {
 		margin-bottom: 2rem;
