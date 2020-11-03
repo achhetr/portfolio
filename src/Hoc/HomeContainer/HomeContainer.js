@@ -6,7 +6,7 @@ const HomeContainer = (props) => {
 	return (
 		<div
 			className={homeContainerStyle.Container}
-			style={{ backgroundColor: props.color }}
+			style={{ backgroundColor: props.color, minWidth: props.fullWidth }}
 		>
 			<h4
 				className={homeContainerStyle.Title}
