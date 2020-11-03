@@ -1,9 +1,9 @@
-.HomeContainer {
+/* .HomeContainer {
 	min-width: 100vw;
 	position: relative;
 	background: linear-gradient(-45deg, #ca61f3, #9c88ff);
 	background-size: 100%;
-}
+} */
 
 .Home {
 	height: 100vh;
@@ -22,7 +22,6 @@
 }
 
 .Profile {
-	display: inline-block;
 	border-right: 1px solid black;
 	padding-right: 0.5rem;
 	white-space: nowrap;
