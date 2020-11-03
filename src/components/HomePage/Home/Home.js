@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import homeStyle from './home.module.css';
 
 const Home = () => (
-	// <div className={homeStyle.HomeContainer}>
 	<div className={homeStyle.Home}>
 		<h2 className={homeStyle.Title}>Akash Chhetri</h2>
 		<h4 className={homeStyle.Profile}>
@@ -48,7 +47,6 @@ const Home = () => (
 			/>
 		</div>
 	</div>
-	// </div>
 );
 
 export default Home;
