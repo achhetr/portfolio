@@ -8,9 +8,7 @@ import homeStyle from './home.module.css';
 const Home = () => (
 	<div className={homeStyle.Home}>
 		<h2 className={homeStyle.Title}>Akash Chhetri</h2>
-		<h4 className={homeStyle.Profile}>
-			I am a Junior Full Stack Developer
-		</h4>
+		<h4 className={homeStyle.Profile}>I am a Full Stack Developer</h4>
 		<Link to="/projects" className={homeStyle.ProjectBtn}>
 			<Button variant="outline-primary">Check my projects</Button>{' '}
 		</Link>
@@ -34,6 +32,17 @@ const Home = () => (
 				<FontAwesomeIcon
 					icon={['fab', 'linkedin-in']}
 					className={`${homeStyle.FaItem} ${homeStyle.FaItemLkd}`}
+					size="2x"
+				/>
+			</a>
+			<a
+				href="https://www.freecodecamp.org/akashchhetri"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<FontAwesomeIcon
+					icon={['fab', 'free-code-camp']}
+					className={`${homeStyle.FaItem} ${homeStyle.FaItemFCC}`}
 					size="2x"
 				/>
 			</a>

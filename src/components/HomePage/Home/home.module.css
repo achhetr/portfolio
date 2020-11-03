@@ -56,6 +56,10 @@
 	color: #0e76a8;
 }
 
+.FaItemFCC:hover {
+	color: #99c9ff;
+}
+
 .MoveScroll {
 	animation: moveUpDown 2s ease-in-out infinite;
 	animation-direction: alternate;

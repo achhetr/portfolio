@@ -1,7 +1,7 @@
 .Footer {
 	margin-top: auto;
 	width: 100%;
-	height: 3rem;
+	min-height: 3rem;
 	background-color: #343a40;
 	color: white;
 	display: flex;
@@ -37,6 +37,9 @@
 
 .FaItemLkd:hover {
 	color: #0e76a8;
+}
+.FaItemFCC:hover {
+	color: #99c9ff;
 }
 
 @media (max-width: 30rem) {

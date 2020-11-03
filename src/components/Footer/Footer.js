@@ -34,6 +34,17 @@ const Footer = () => (
 							size="2x"
 						/>
 					</a>
+					<a
+						href="https://www.freecodecamp.org/akashchhetri"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<FontAwesomeIcon
+							icon={['fab', 'free-code-camp']}
+							className={`${footerStyle.FaItem} ${footerStyle.FaItemFCC}`}
+							size="2x"
+						/>
+					</a>
 				</Col>
 			</Row>
 		</Container>
