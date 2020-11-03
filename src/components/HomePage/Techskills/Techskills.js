@@ -6,7 +6,7 @@ import techSkillsStyle from './techSkills.module.css';
 
 const Techskills = () => (
 	<HomeContainer title="Technical Skills" titleColor="white" color="#21293b">
-		<Row noGutters>
+		<Row noGutters className={techSkillsStyle.RowContainer}>
 			<Col sm={12} md={4} className={techSkillsStyle.CardFlip}>
 				<div className={techSkillsStyle.CardFront}>
 					<div className={techSkillsStyle.Card}>

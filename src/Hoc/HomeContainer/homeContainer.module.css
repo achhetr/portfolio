@@ -24,11 +24,15 @@
 
 @media (max-width: 30rem) {
 	.Container {
-		padding-bottom: 3rem;
+		padding-bottom: 0rem;
 	}
 
 	.Title {
 		font-size: 2rem;
 		margin-top: 2.5rem;
+	}
+
+	.Container {
+		min-height: 70vh;
 	}
 }

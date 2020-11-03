@@ -10,7 +10,7 @@ const PersonalBio = () => {
 	return (
 		<>
 			<HomeContainer title="What do I do?">
-				<Row noGutters>
+				<Row className={personalBioStyle.RowContainer} noGutters>
 					<Col
 						xs={12}
 						md={{ span: 4, offset: 1 }}
@@ -40,7 +40,7 @@ const PersonalBio = () => {
 						className={personalBioStyle.BodyContainer}
 					>
 						<h4>Akash on Weekdays</h4>
-						<ol>
+						<ol className={personalBioStyle.ListContainer}>
 							<li>
 								<FontAwesomeIcon
 									icon={['fas', 'desktop']}
@@ -87,7 +87,7 @@ const PersonalBio = () => {
 			</HomeContainer>
 
 			<HomeContainer title="" color="transparent">
-				<Row noGutters>
+				<Row noGutters className={personalBioStyle.RowContainer}>
 					<Col
 						xs={12}
 						md={{ span: 5, offset: 1 }}
