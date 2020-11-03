@@ -3,7 +3,6 @@ import * as EmailValidator from 'email-validator';
 import { Container, Row, Form, Button } from 'react-bootstrap';
 import swal from 'sweetalert';
 import { useHistory } from 'react-router-dom';
-import 'aos/dist/aos.css';
 
 import contactStyle from './contact.module.css';
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import HomeContainer from '../../../Hoc/HomeContainer/HomeContainer';
 
 import homeStyle from './home.module.css';
 

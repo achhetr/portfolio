@@ -1,0 +1,26 @@
+.Container {
+	background: linear-gradient(-45deg, #ca61f3, #9c88ff, #c39df0, #f09dab);
+	position: relative;
+	width: 100%;
+	min-height: 95vh;
+	background-size: 400% 400%;
+	animation: change 5s ease-in infinite;
+}
+
+.WrappedContainer {
+	position: absolute;
+	min-width: 90%;
+	height: 100%;
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		transform: 100% 50%;
+	}
+	100% {
+		transform: 0 50%;
+	}
+}
