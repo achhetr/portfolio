@@ -40,8 +40,9 @@
 }
 
 .FaItemDwn {
-	color: lightgray;
-	animation: MoveUpDown 1s linear infinite;
+	color: rgb(212, 82, 238);
+	transition: transform 0.2s ease-in-out;
+	animation: blinkMove 1s ease-in infinite;
 }
 
 .FaItem:hover {
@@ -60,10 +61,9 @@
 	color: #99c9ff;
 }
 
-.MoveScroll {
-	animation: moveUpDown 2s ease-in-out infinite;
-	animation-direction: alternate;
-	opacity: 1;
+.FaItemDwn:hover,
+.FaItemDwn:focus {
+	transform: scale(1.2);
 }
 
 @keyframes typing {
@@ -85,15 +85,13 @@
 	}
 }
 
-@keyframes moveUpDown {
-	0% {
-		transform: translateY(0);
+@keyframes blinkMove {
+	from,
+	to {
+		opacity: 0.7;
 	}
 	50% {
-		transform: translateY(20px);
-	}
-	100% {
-		transform: translateY(-20px);
+		opacity: 0.1;
 	}
 }
 

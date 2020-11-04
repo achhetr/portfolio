@@ -49,11 +49,13 @@ const Home = () => (
 		</div>
 		<p>Scroll Down</p>
 		<div className={homeStyle.MoveScroll}>
-			<FontAwesomeIcon
-				icon={['fas', 'arrow-circle-down']}
-				className={`${homeStyle.FaItem} ${homeStyle.FaItemDwn}`}
-				size="2x"
-			/>
+			<a href="#technical">
+				<FontAwesomeIcon
+					icon={['fas', 'arrow-down']}
+					className={`${homeStyle.FaItem} ${homeStyle.FaItemDwn}`}
+					size="2x"
+				/>
+			</a>
 		</div>
 	</div>
 );

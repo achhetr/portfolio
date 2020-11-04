@@ -31,7 +31,7 @@
 }
 
 .BottomTitle::after {
-	content: ' - By Akash';
+	content: ' - Akash';
 	color: violet;
 }
 

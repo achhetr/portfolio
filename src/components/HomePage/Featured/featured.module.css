@@ -19,7 +19,6 @@
 
 .RightContainer {
 	width: 60%;
-	/* background-color: #795eff */
 	background: linear-gradient(-45deg, #795eff, white, #795eff, #5e45de);
 }
 
@@ -128,6 +127,50 @@
 	text-transform: uppercase;
 }
 
+@media (max-width: 30rem) {
+	.RightContainer {
+		display: none;
+	}
+
+	.LeftContainer .Title {
+		text-align: center;
+	}
+
+	.Title {
+		font-size: 2rem;
+		color: white;
+	}
+
+	.Title::after {
+		content: ' Project';
+	}
+
+	.LeftContainer {
+		width: 100%;
+	}
+
+	.Button {
+		padding: 0.8rem;
+		font-weight: 400;
+	}
+
+	.ButtonContainer {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 4rem;
+	}
+
+	.ImageContainer {
+		width: 90%;
+		height: 100%;
+		margin-top: 5rem;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+}
+
 @keyframes shake {
 	10%,
 	90% {
@@ -148,11 +191,5 @@
 	40%,
 	60% {
 		transform: translate3d(4px, 0, 0);
-	}
-}
-
-@media (max-width: 30rem) {
-	.Container {
-		display: none;
 	}
 }
