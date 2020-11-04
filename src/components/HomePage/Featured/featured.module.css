@@ -2,8 +2,6 @@
 	width: 100vw;
 	min-height: 90vh;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .LeftContainer,
@@ -132,6 +130,8 @@
 @media (max-width: 30rem) {
 	.Container {
 		flex-direction: column;
+		align-items: center;
+		overflow-x: hidden;
 	}
 	.LeftContainer {
 		width: 100%;
@@ -177,7 +177,7 @@
 	/*Right Container*/
 	.RightContainer {
 		width: 100%;
-		padding-bottom: 2rem;
+		padding: 0 0.4rem 2rem 0.4rem;
 	}
 
 	.RightContainer .Title {
