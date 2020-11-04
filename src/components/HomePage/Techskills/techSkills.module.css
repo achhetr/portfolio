@@ -76,4 +76,12 @@
 	.RowContainer {
 		margin-bottom: 2rem;
 	}
+
+	.CardFlip {
+		margin-top: 1rem;
+	}
+
+	.Link {
+		pointer-events: none;
+	}
 }
