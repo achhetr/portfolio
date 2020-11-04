@@ -1,0 +1,13 @@
+.NavBarContainer {
+	min-height: 5rem;
+	background: #21293b;
+}
+
+.NavLink {
+	color: white !important;
+}
+
+.NavLink:hover,
+.NavLink:focus {
+	color: rgb(248, 220, 248) !important;
+}

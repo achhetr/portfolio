@@ -5,7 +5,6 @@ import uuid from 'react-uuid';
 
 import projectsStyle from './projects.module.css';
 import projectList from '../../Constants/projectList';
-import FooterInfo from '../FooterInfo/FooterInfo';
 
 const Projects = () => (
 	<>
@@ -19,7 +18,6 @@ const Projects = () => (
 				</Row>
 			</div>
 		</Container>
-		<FooterInfo />
 	</>
 );
 

@@ -17,3 +17,8 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
+
+/* Bootstrap component style */
+.navbar-toggler-icon {
+	background-image: url(https://www.flaticon.com/svg/static/icons/svg/3524/3524701.svg) !important;
+}

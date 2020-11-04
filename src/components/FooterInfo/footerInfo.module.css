@@ -1,6 +1,6 @@
 .Container {
 	width: 100vw;
-	min-height: 95vh;
+	min-height: 99vh;
 	background: #21293b;
 	color: white;
 	display: flex;
@@ -13,6 +13,7 @@
 .Title {
 	font-weight: 100;
 	font-size: 4rem;
+	padding: 0 1rem;
 }
 
 .NavLink {
@@ -41,7 +42,6 @@
 
 	.Title {
 		font-size: 2rem;
-		padding: 0 1rem;
 	}
 	.BottomTitle {
 		font-size: 0.9rem;

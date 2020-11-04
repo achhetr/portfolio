@@ -3,7 +3,6 @@ import { Card, Button, Container, Image, Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-import FooterInfo from '../FooterInfo/FooterInfo';
 import aboutStyle from './about.module.css';
 
 const About = () => (
@@ -79,7 +78,6 @@ const About = () => (
 				</Card.Body>
 			</Card>
 		</Container>
-		<FooterInfo />
 	</>
 );
 

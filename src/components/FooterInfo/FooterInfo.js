@@ -9,7 +9,7 @@ const FooterInfo = () => {
 				Let me help you grow your business.
 			</h4>
 			<h4 className={footerInfoStyle.BottomTitle}>
-				Let's enjoy from here onwards
+				Let's work together :)
 			</h4>
 			<ArrowUp />
 		</div>
