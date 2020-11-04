@@ -6,6 +6,7 @@ import Techskills from './Techskills/Techskills';
 import Testimonials from './Testimonials/Testimonials';
 import PersonalBio from './PersonalBio/PersonalBio';
 import Featured from './Featured/Featured';
+import FooterInfo from '../FooterInfo/FooterInfo';
 
 const HomePage = () => (
 	<div className={homePageStyle.HomeContainer}>
@@ -14,6 +15,7 @@ const HomePage = () => (
 		<Testimonials />
 		<Featured />
 		<PersonalBio />
+		<FooterInfo />
 	</div>
 );
 

@@ -1,0 +1,35 @@
+.Container {
+	width: 100vw;
+	min-height: 95vh;
+	background: #21293b;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.Title {
+	font-weight: 100;
+	font-size: 4rem;
+}
+
+.NavLink {
+	text-decoration: none !important;
+	color: white;
+	font-size: 2rem;
+}
+
+.NavLink:hover {
+	color: violet;
+}
+
+.BottomTitle {
+	margin-top: 2rem;
+}
+
+.BottomTitle::after {
+	content: ' - By Akash';
+	color: violet;
+}

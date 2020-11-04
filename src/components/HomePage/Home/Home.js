@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import homeStyle from './home.module.css';
 
 const Home = () => (
-	<div className={homeStyle.Home}>
+	<div className={homeStyle.Home} id="home">
 		<h2 className={homeStyle.Title}>Akash Chhetri</h2>
 		<h4 className={homeStyle.Profile}>I am a Full Stack Developer</h4>
 		<Link to="/projects" className={homeStyle.ProjectBtn}>

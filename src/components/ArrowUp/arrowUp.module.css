@@ -1,0 +1,25 @@
+.FaArrowContainer {
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
+
+.FaArrow {
+	color: rgb(212, 82, 238);
+	transition: transform 0.2s ease-in-out;
+	animation: blink 0.75s ease-in infinite;
+}
+
+.FaArrow:hover {
+	transform: scale(1.2);
+}
+
+@keyframes blink {
+	from,
+	to {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.7;
+	}
+}

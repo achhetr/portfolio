@@ -1,18 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Project from './Project/Project';
 import uuid from 'react-uuid';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 import projectsStyle from './projects.module.css';
 import projectList from '../../Constants/projectList';
+import FooterInfo from '../FooterInfo/FooterInfo';
 
-const Projects = () => {
-	useEffect(() => {
-		Aos.init({ delay: 50, duration: 1000 });
-	}, []);
-	return (
+const Projects = () => (
+	<>
 		<Container data-aos="fade-left">
 			<h1 className={projectsStyle.Title}>Projects</h1>
 			<div className={projectsStyle.Container}>
@@ -23,7 +19,8 @@ const Projects = () => {
 				</Row>
 			</div>
 		</Container>
-	);
-};
+		<FooterInfo />
+	</>
+);
 
 export default Projects;
