@@ -14,6 +14,12 @@
 	transform: scale(1.2);
 }
 
+@media (max-width: 30rem) {
+	.FaArrowContainer {
+		left: 50% !important;
+	}
+}
+
 @keyframes blink {
 	from,
 	to {

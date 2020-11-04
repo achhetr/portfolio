@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const PersonalBio = () => (
 	<>
-		<HomeContainer title="What do I do?">
+		<HomeContainer title="What do I do?" color="#F7E6FF">
 			<Row className={personalBioStyle.RowContainer} noGutters>
 				<Col
 					xs={12}
@@ -85,7 +85,7 @@ const PersonalBio = () => (
 			</Row>
 		</HomeContainer>
 
-		<HomeContainer title="" color="#eae6ff">
+		<HomeContainer title="" color="#fcffd6">
 			<Row noGutters className={personalBioStyle.RowContainer}>
 				<Col
 					xs={12}
