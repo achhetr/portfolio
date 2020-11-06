@@ -17,12 +17,27 @@ const Techskills = () => (
 						<div className={techSkillsStyle.Card}>
 							<Card.Header>Frontend</Card.Header>
 							<Card.Body>
-								<Card.Title>HTML, CSS, JS, ReactJS</Card.Title>
-								<Card.Text>
-									Experienced with front end skills, can
-									develop static and dynamic websites. Please
-									check my projects.
-								</Card.Text>
+								<h1 className={techSkillsStyle.TechHeader}>
+									HTML, CSS, ReactJS
+								</h1>
+								<ul
+									className={
+										techSkillsStyle.ListItemContainer
+									}
+								>
+									<li className={techSkillsStyle.ListItem}>
+										Responsive web design
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Single Page Applications
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Animation on scroll feature
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Redux and Thunk
+									</li>
+								</ul>
 							</Card.Body>
 						</div>
 					</div>
@@ -48,10 +63,27 @@ const Techskills = () => (
 						<div className={techSkillsStyle.Card}>
 							<Card.Header>Backend</Card.Header>
 							<Card.Body>
-								<Card.Title>NodeJS, Python</Card.Title>
-								<Card.Text>
-									Experienced with back end skills
-								</Card.Text>
+								<h1 className={techSkillsStyle.TechHeader}>
+									NodeJS, Express, Python
+								</h1>
+								<ul
+									className={
+										techSkillsStyle.ListItemContainer
+									}
+								>
+									<li className={techSkillsStyle.ListItem}>
+										Custom RESTful APIs
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										User login feature using JWT
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Test Driven Developement
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Automation using Python
+									</li>
+								</ul>
 							</Card.Body>
 						</div>
 					</div>
@@ -78,10 +110,27 @@ const Techskills = () => (
 						<div className={techSkillsStyle.Card}>
 							<Card.Header>Cloud and Database</Card.Header>
 							<Card.Body>
-								<Card.Title>
-									AWS, SQL, MongoDB, Mongoose
-								</Card.Title>
-								<Card.Text>Experienced with Database</Card.Text>
+								<h1 className={techSkillsStyle.TechHeader}>
+									AWS, SQL, MongoDB
+								</h1>
+								<ul
+									className={
+										techSkillsStyle.ListItemContainer
+									}
+								>
+									<li className={techSkillsStyle.ListItem}>
+										Amplify for Serverless website
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Cognito, Lambda, S3 and SES
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										SQL and MongoDB Database
+									</li>
+									<li className={techSkillsStyle.ListItem}>
+										Mongoose schema validation
+									</li>
+								</ul>
 							</Card.Body>
 						</div>
 					</div>

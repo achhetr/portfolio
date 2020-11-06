@@ -1,7 +1,6 @@
 .Container {
 	width: 100vw;
 	min-height: 99vh;
-	max-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 6rem;
