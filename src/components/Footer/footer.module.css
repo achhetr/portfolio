@@ -44,6 +44,15 @@
 
 @media (max-width: 30rem) {
 	.Footer {
-		display: none !important;
+		padding: 1rem 0;
+	}
+
+	.Title {
+		text-align: center;
+	}
+
+	.FaContainer {
+		display: flex;
+		justify-content: center;
 	}
 }

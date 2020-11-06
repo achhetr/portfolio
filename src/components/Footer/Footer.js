@@ -11,7 +11,11 @@ const Footer = () => (
 				<Col xs={12} md={4}>
 					<h4 className={footerStyle.Title}>Akash Chhetri ©2020</h4>
 				</Col>
-				<Col xs={12} md={{ span: 3, offset: 5 }}>
+				<Col
+					xs={12}
+					md={{ span: 3, offset: 5 }}
+					className={footerStyle.FaContainer}
+				>
 					<a
 						href="https://github.com/achhetr"
 						target="_blank"
