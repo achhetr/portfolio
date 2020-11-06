@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 30rem) {
+	.CardContainer {
+		margin-bottom: 8rem;
+	}
 	.Title {
 		font-size: 2rem;
 	}
