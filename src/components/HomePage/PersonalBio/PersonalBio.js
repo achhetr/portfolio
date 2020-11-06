@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const PersonalBio = () => (
 	<>
-		<HomeContainer title="What do I do?" color="#F7E6FF">
+		<HomeContainer title="What do I do?" color="whitesmoke">
 			<Row className={personalBioStyle.RowContainer} noGutters>
 				<Col
 					xs={12}
@@ -37,6 +37,7 @@ const PersonalBio = () => (
 					xs={12}
 					md={{ span: 5, offset: 2 }}
 					className={personalBioStyle.BodyContainer}
+					style={{ background: '#F7E6FF' }}
 				>
 					<h4>Akash on Weekdays</h4>
 					<ol className={personalBioStyle.ListContainer}>
@@ -85,12 +86,13 @@ const PersonalBio = () => (
 			</Row>
 		</HomeContainer>
 
-		<HomeContainer title="" color="#fcffd6">
+		<HomeContainer title="" color="whitesmoke">
 			<Row noGutters className={personalBioStyle.RowContainer}>
 				<Col
 					xs={12}
 					md={{ span: 5, offset: 1 }}
 					className={personalBioStyle.BodyContainer}
+					style={{ background: '#c3f7df' }}
 				>
 					<h4>Akash on Weekends</h4>
 					<ol>
