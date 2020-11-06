@@ -14,7 +14,21 @@ const About = () => (
 				<Card.Body>
 					<Card.Title>
 						<h4 className={aboutStyle.ProfileQuote}>
-							Sportman, Developer and Husband
+							<FontAwesomeIcon
+								icon={['fas', 'laptop-code']}
+								size="1x"
+							/>
+							{'  '} Developer{' '}
+							<FontAwesomeIcon
+								icon={['fas', 'running']}
+								size="1x"
+							/>
+							{'  '}Sportsman{' '}
+							<FontAwesomeIcon
+								icon={['fas', 'magic']}
+								size="1x"
+							/>
+							{'  '}Dreamer
 						</h4>
 					</Card.Title>
 					<Row>
@@ -37,7 +51,8 @@ const About = () => (
 									</p>
 									<p>
 										I am currently co-developing a Vegan
-										Blog project. Check my Github{' '}
+										Blog project. Feel free to view my
+										Github{' '}
 										<a
 											href="https://github.com/achhetr"
 											target="_blank"
@@ -50,7 +65,8 @@ const About = () => (
 										</a>
 									</p>
 									<p>
-										You can check my linkedin profile{' '}
+										You can send a connection request to my
+										linked
 										<a
 											href="https://www.linkedin.com/in/akashchhetri/"
 											target="_blank"
@@ -64,17 +80,29 @@ const About = () => (
 									</p>
 									<p>
 										If you weigh passion over experience for
-										a junior role. I am your person who is
-										passionate about creating projects and
-										solve problems.
+										a junior role, I am the person you are
+										looking for.
 									</p>
 								</Card.Text>
 							</Row>
 						</Col>
 					</Row>
-					<Link to="/projects">
-						<Button variant="primary">Explore projects</Button>
-					</Link>
+					<Row>
+						<Col
+							xs={12}
+							md={{ span: 8, offset: 4 }}
+							className={aboutStyle.BtnContainer}
+						>
+							<Link to="/contact">
+								<Button variant="primary">Contact me</Button>
+							</Link>
+							<Link to="/projects">
+								<Button variant="primary">
+									Explore projects
+								</Button>
+							</Link>
+						</Col>
+					</Row>
 				</Card.Body>
 			</Card>
 		</Container>

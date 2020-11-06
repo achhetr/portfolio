@@ -151,7 +151,7 @@ const Contact = () => {
 					/>
 
 					<Form.Check
-						label="Check this box if this is job related"
+						label="Please tick this box if your message is related to job opportunities"
 						className={contactStyle.FormItem}
 						value={checkBox}
 						onChange={onChangeCheckBox}
