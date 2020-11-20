@@ -38,7 +38,6 @@ const PersonalBio = () => (
 						xs={12}
 						md={{ span: 5, offset: 1 }}
 						className={personalBioStyle.BodyContainer}
-						style={{ background: '#F7E6FF' }}
 					>
 						<h4>Akash on Weekdays</h4>
 						<ol className={personalBioStyle.ListContainer}>
@@ -90,7 +89,6 @@ const PersonalBio = () => (
 						xs={12}
 						md={{ span: 5 }}
 						className={personalBioStyle.BodyContainer}
-						style={{ background: '#c3f7df' }}
 					>
 						<h4>Akash on Weekends</h4>
 						<ol>
